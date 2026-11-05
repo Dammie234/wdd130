@@ -1,9 +1,6 @@
-main {
-    max-width: 840px;
-}
-
 nav {
     background-color: steelblue;
+    padding: 10px;
 }
 
 nav a {
@@ -12,8 +9,19 @@ nav a {
     color: white;
 }
 
-h1,
-h2 {
+main {
+    max-width: 840px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+h1 {
     color: steelblue;
 }
 
@@ -25,11 +33,6 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-}
-
-main img {
-    width: 150px;
-    height: auto;
 }
 
 aside img {
